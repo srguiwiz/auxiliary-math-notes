@@ -1,0 +1,196 @@
+body {
+  margin: 1em;
+  background-color: #fff;
+  color: #000;
+}
+body > * {
+  margin-bottom: 1em;
+}
+* {
+  font-family: "Liberation Sans", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Liberation Sans", Verdana, Geneva, Arial, Helvetica, sans-serif;
+  background-color: #eef;
+  color: #069;
+}
+h1 {
+  font-size: 130%;
+  padding-left: 0em;
+}
+h2 {
+  font-size: 120%;
+  padding-left: 0.3em;
+}
+h3 {
+  font-size: 115%;
+  padding-left: 0.6em;
+}
+h4 {
+  font-size: 110%;
+  padding-left: 0.9em;
+}
+h5 {
+  font-size: 105%;
+  padding-left: 1.2em;
+}
+h6 {
+  font-size: 103%;
+  padding-left: 1.5em;
+}
+/* lists */
+ul {
+  list-style-type: circle;
+}
+ol {
+  list-style-type: decimal;
+}
+ul, ol {
+  list-style-position: inside;
+  margin-left: 0em;
+  padding-left: 0;
+}
+ul * ul, ol * ol, ul * ol, ol * ul {
+  list-style-position: inside;
+  margin-left: 0.7em;
+  padding-left: 0;
+}
+li {
+  margin-top: 0.3em;
+}
+li + li {
+}
+p + p, pre + pre {
+  margin-top: 0.2em;
+}
+/* tables */
+td, th {
+  padding: 0.7em;
+}
+td, th, table {
+  border-style: solid;
+  border-width: thin;
+  border-collapse: collapse;
+  border-color: #ccc;
+}
+/* cells in a tight table */
+.tight td, .tight th {
+  padding: 0.1em;
+}
+.tight-wide td, .tight-wide th {
+  padding: 0.1em 0.7em;
+}
+.align-integer-number {
+  text-align: right;
+}
+/* preformatted text */
+pre {
+  font-family: "Liberation Mono", Ubuntu, "Source Code Pro", "Courier New", Courier, monospace;
+  font-size: 90%;
+  padding-left: 0.3em;
+}
+/* a fragment of computer code */
+code {
+  font-family: "Liberation Mono", Ubuntu, "Source Code Pro", "Courier New", Courier, monospace;
+  font-size: 90%;
+}
+/* sample output from programs, scripts, etc. */
+samp {
+  font-family: "Liberation Sans", Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  color: #444;
+  background-color: #f0f0f0;
+  border: thin solid #ddd;
+  padding: 0.2ex;
+}
+kbd {
+  font-family: "Liberation Sans", Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  font-style: normal;
+  background-color: #f8f0e8;
+  border-bottom: thin solid #edb;
+  border-right: thin solid #edb;
+  border-top: thin solid #f8f0e8;
+  border-left: thin solid #f8f0e8;
+  padding: 0.2ex;
+}
+var {
+}
+em {
+}
+strong {
+}
+cite {
+}
+dfn {
+}
+abbr, acronym {
+}
+blockquote, q {
+}
+/* personally identifiable information,
+   including role authentication and authorization information */
+.pii {
+  background-color: #fec;
+  border-bottom: thin solid #f88;
+}
+/* project specific information */
+.psi {
+  background-color: #fec;
+  border-bottom: thin solid #fcc;
+  /* specific property must be after shorthand property */
+}
+/* a search */
+.search {
+  background-color: #e5ecf9;
+  border-top: 1px solid #36c;
+  font-family: "Liberation Sans", Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  padding-top: 0.2em;
+}
+.search * {
+  font-family: "Liberation Sans", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+/* footer */
+.footer {
+  background-color: #ddd;
+  font-size: smaller;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* probably outdated info */
+.outdated {
+  background-color: #f8f8f8;
+  color: #666;
+}
+/* less important */
+.less-important {
+  font-size: smaller;
+}
+.deemphasize {
+  font-size: smaller;
+}
+/* important */
+.important {
+  font-weight: bolder;
+}
+.emphasize {
+  font-weight: bolder;
+}
+/* optional */
+.optional {
+  color: #666666;
+}
+/* to do marker, for workflow */
+.todo {
+  background-color:#CFC
+}
+/* hilite marker, for workflow */
+.hilite {
+  background-color: #FFFF00;
+}
+/* table of contents */
+.toc li li li * {
+  font-size: smaller;
+}
