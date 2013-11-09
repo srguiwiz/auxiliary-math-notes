@@ -84,6 +84,9 @@ td, th, table {
 .align-integer-number {
   text-align: right;
 }
+.align-fractional-number {
+  text-align: left;
+}
 /* preformatted text */
 pre {
   font-family: "Liberation Mono", Ubuntu, "Source Code Pro", "Courier New", Courier, monospace;
