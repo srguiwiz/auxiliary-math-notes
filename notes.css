@@ -1,3 +1,8 @@
+@media print {
+  tr, td, img {
+    page-break-inside: avoid;
+  }
+}
 body {
   margin: 1em;
   background-color: #fff;
