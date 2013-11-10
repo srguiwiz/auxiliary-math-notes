@@ -95,6 +95,9 @@ td, th, table {
 .inside-root {
   text-decoration: overline;
 }
+.periodic {
+  text-decoration: overline;
+}
 /* preformatted text */
 pre {
   font-family: "Liberation Mono", Ubuntu, "Source Code Pro", "Courier New", Courier, monospace;
