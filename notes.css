@@ -92,6 +92,9 @@ td, th, table {
 .align-fractional-number {
   text-align: left;
 }
+.inside-root {
+  text-decoration: overline;
+}
 /* preformatted text */
 pre {
   font-family: "Liberation Mono", Ubuntu, "Source Code Pro", "Courier New", Courier, monospace;
